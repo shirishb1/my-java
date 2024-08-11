@@ -83,5 +83,6 @@ public class MyProgram{
         System.out.println(value);
         value --;
         System.out.println(value);
+        System.out.println("hi");
     }
 }
