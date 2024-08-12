@@ -84,5 +84,15 @@ public class MyProgram{
         value --;
         System.out.println(value);
         System.out.println("hi");
+        // logical operators
+        int bodyTemp = 97;
+        if (bodyTemp >= 97){
+            System.out.println("You have fever");
+        }
+        int e = 50;
+        int f =  70;
+        if ((a <= 50) && (b <= 70)){
+            System.out.println("All good");
+        }
     }
 }
