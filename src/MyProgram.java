@@ -1,5 +1,6 @@
 public class MyProgram{
     public static void main(String[] args){
+        //variables
         int first = 10;
         int second = (20+30) - (6/2) * 3;
         int sum = first + second;
@@ -35,7 +36,7 @@ public class MyProgram{
         System.out.println(newbytevalue);
         byte newbytevalue2 = (byte) (maxvalue/2);
         System.out.println(newbytevalue2);
-
+// datatypes
         int a = 10;
         byte b = 15;
         short c = 5;
@@ -91,8 +92,18 @@ public class MyProgram{
         }
         int e = 50;
         int f =  70;
-        if ((a <= 50) && (b <= 70)){
+        if ((a <= 50) && (b <= 70)){           // AND operator
             System.out.println("All good");
+        }
+
+        int g = 90;
+        int h = 100;
+        if ((g == 90) || (h > 100)){           // OR operator
+            System.out.println("It's all good");
+        }
+        boolean isitSunday = false;
+        if (!isitSunday){                       // NOT operator
+            System.out.println("It is not Sunday");
         }
     }
 }
