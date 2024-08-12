@@ -105,5 +105,14 @@ public class MyProgram{
         if (!isitSunday){                       // NOT operator
             System.out.println("It is not Sunday");
         }
+        // Assignment vs Equal operator
+        int mobilePrice = 500;
+        if (mobilePrice == 450 || mobilePrice >= 500){
+            System.out.println("It is under my budget");
+        }
+        boolean isCold = true;
+        if (isCold == true){
+            System.out.println("Yes it is cold");
+        }
     }
 }
