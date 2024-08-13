@@ -159,5 +159,47 @@ public class MyProgram{
         } else {
             System.out.println("You Failed");
         }
+        // Methods in Java
+
+
+
+
+        myDetails();
+        System.out.println("this is a test");
+        myDetails();
+        System.out.println("Test 2");
+
+
+        perimeterofRect( length = 10, breadth = 20);
+        perimeterofRect( length = 20, breadth = 20);
+        //speedofobject(d = 100,e = 10 );
+        double topspeed =  speedofobject(d = 100, e = 20);
+        double x = 40 * topspeed;
+        System.out.println(x);
+    }
+    public static void myDetails(){
+        String myName = "my name is Shirish";
+        int age = 22;
+        double height = 5.12;
+        System.out.println(myName);
+        System.out.println(age);
+        System.out.println(height);
+
+    }
+    public static void perimeterofRect(int length, int breadth){
+        double perimeter = 2 * (length + breadth);
+        System.out.println("The perimeter of the rectangle is : " + perimeter);
+    }
+    public static double speedofobject(double d, double e){
+        if (d == 100) {
+
+
+            double speed = d / e;
+            // System.out.println("Speed is " + speed);
+            return speed;
+
+        }else{
+            return 0;
+        }
     }
 }
