@@ -14,7 +14,7 @@ public class MyProgram{
         System.out.println(first + second + third + sum + sum1);
         int maxrange = Integer.MAX_VALUE;
         int minrange = Integer.MIN_VALUE;
-        System.out.println(maxrange);
+        System.out.println("integer range " + maxrange);
         System.out.println(minrange);
         int sum2 = maxrange + 1;
         int sum3 = minrange - 1;
@@ -36,6 +36,7 @@ public class MyProgram{
         System.out.println(newbytevalue);
         byte newbytevalue2 = (byte) (maxvalue/2);
         System.out.println(newbytevalue2);
+
 // datatypes
         int a = 10;
         byte b = 15;
@@ -130,5 +131,19 @@ public class MyProgram{
         int breadth = 10;
         double perimeter = 2 * (length + breadth);
         System.out.println("The perimeter of the Triangle is : " + perimeter);
+
+        // Keywords And Expressions
+        double myValue = 10;
+        System.out.println(myValue);
+
+        int int5 = 10;
+        System.out.println("I am expression");
+
+        float area = 100 * 25;
+
+        if (area == 2500){
+
+            System.out.println("This is the area");
+        }
     }
 }
