@@ -145,5 +145,19 @@ public class MyProgram{
 
             System.out.println("This is the area");
         }
+
+        //if-else statement
+        int StudentScore = 76;
+        if (StudentScore == 100){
+            System.out.println("You got 'S' grade");
+        } else if (StudentScore > 90 && StudentScore < 100){
+            System.out.println("You got 'A' grade");
+        } else if (StudentScore > 75 && StudentScore < 90){
+            System.out.println("You got 'B' grade");
+        } else if (StudentScore > 65 && StudentScore < 75){
+            System.out.println("You got 'C' grade");
+        } else {
+            System.out.println("You Failed");
+        }
     }
 }
