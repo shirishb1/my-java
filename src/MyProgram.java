@@ -114,5 +114,16 @@ public class MyProgram{
         if (isCold == true){
             System.out.println("Yes it is cold");
         }
+        // Ternary operator
+        boolean isMarch = false;
+        boolean isNoofDay31 = isMarch ? true : false;
+        if (!isNoofDay31) {
+            System.out.println("Days are not 31");
+        }
+        int heightoftruck = 50;
+        boolean TruckAllowed =heightoftruck == 50 ? true : false;
+        if (TruckAllowed){
+            System.out.println("You can cross the bridge");
+        }
     }
 }
