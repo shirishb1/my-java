@@ -1,5 +1,6 @@
 public class MyProgram{
     public static void main(String[] args){
+
         //variables
         int first = 10;
         int second = (20+30) - (6/2) * 3;
@@ -158,9 +159,9 @@ public class MyProgram{
             System.out.println("You got 'C' grade");
         } else {
             System.out.println("You Failed");
+
         }
         // Methods in Java
-
 
 
 
@@ -190,7 +191,7 @@ public class MyProgram{
         double perimeter = 2 * (length + breadth);
         System.out.println("The perimeter of the rectangle is : " + perimeter);
     }
-    public static double speedofobject(double d, double e){
+    public static double speedofobject(double d, double e) {
         if (d == 100) {
 
 
@@ -198,8 +199,11 @@ public class MyProgram{
             // System.out.println("Speed is " + speed);
             return speed;
 
-        }else{
+        } else {
             return 0;
         }
+
+
+
     }
 }
